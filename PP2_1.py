@@ -4,7 +4,7 @@ def q1():
   integer = int(input("Input an integer: "))
   num = integer % 2
   if num == 0:
-    print(f"{integer} is even")
+    print(f"{integer} is even") 
   if num == 1:
     print(f"{integer} is odd")
           
