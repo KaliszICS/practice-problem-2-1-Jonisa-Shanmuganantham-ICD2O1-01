@@ -1,7 +1,7 @@
 
 
 def q1(): 
-  integer = int(input("Input an integer: "))
+  integer = int(input("In: "))
   num = integer % 2
   if num == 0:
     print(f"{integer} is even") 
@@ -9,7 +9,7 @@ def q1():
     print(f"{integer} is odd")
           
 def q2(): 
-  name = input("Input a name: ")
+  name = input("In: ")
   if name == "Kalisz":
     print("teacher")
   else:
